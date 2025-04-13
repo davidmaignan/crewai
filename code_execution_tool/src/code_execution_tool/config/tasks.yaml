@@ -1,0 +1,13 @@
+execution_task:
+  description: >
+    Answer the following question: {question}
+  expected_output: >
+    The actual code used to get the answer to the file
+  agent: execution_agent
+
+write_task:
+  description: >
+    Write the code into a file
+  expected_output: >
+    The code written into a file code/{filename}
+  agent: writer_agent
