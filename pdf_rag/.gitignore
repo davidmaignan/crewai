@@ -1,0 +1,16 @@
+.env
+__pycache__/
+.DS_Store
+
+# Exclude binary files
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+
+**db**
