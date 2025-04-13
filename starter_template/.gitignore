@@ -1,0 +1,41 @@
+# Exclude binary files
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+
+# Exclude environment files
+.env
+.env.*
+*.env
+
+# Exclude cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Exclude system files
+.DS_Store
+
+# Exclude secrets and API keys
+**/token.json
+**/credentials.json
+**/secrets.json
+**/api_keys.json
+**/config.json
+**/settings.json
+**/credentials.yaml
+**/secrets.yaml
+**/api_keys.yaml
+**/config.yaml
+**/settings.yaml
+**/credentials.yml
+**/secrets.yml
+**/api_keys.yml
+**/config.yml
+**/settings.yml 
